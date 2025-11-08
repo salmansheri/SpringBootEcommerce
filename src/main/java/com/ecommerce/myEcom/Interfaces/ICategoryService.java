@@ -9,9 +9,9 @@ public interface ICategoryService {
 
     void createCategory(Category category);
 
-    String deleteCategory(Long categoryId);
+    String deleteCategory(long categoryId);
 
-    Category updateCategory(Long categoryId, Category updatedCategory); 
+    Category updateCategory(long categoryId, Category updatedCategory); 
     
     
 }
