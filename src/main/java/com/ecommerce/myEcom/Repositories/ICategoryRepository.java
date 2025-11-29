@@ -9,5 +9,6 @@ import com.ecommerce.myEcom.Models.Category;
 
 @Repository
 public interface ICategoryRepository extends JpaRepository<Category, Long> {
+    Category findByName(String name); 
 
 }
